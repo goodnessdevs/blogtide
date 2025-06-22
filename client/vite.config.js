@@ -25,9 +25,4 @@ export default defineConfig({
   define: {
     global: "window",
   },
-  server: {
-    proxy: {
-      "/api": "https://blogtide-backend.onrender.com",
-    },
-  },
 });

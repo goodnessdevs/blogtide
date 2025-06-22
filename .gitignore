@@ -1,6 +1,3 @@
 node_modules/
 server/uploads/
 server/.env
-client/build/
-client/node_modules/
-client/.env

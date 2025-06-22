@@ -81,7 +81,7 @@ const Publish = () => {
     }
 
     try {
-      const response = await fetch("http://localhost:4000/api/blogs/", {
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/api/blogs/`, {
         method: "POST",
         body: data,
         credentials: "include",

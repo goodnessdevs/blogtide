@@ -24,7 +24,7 @@ const Posts = ({ limit }) => {
       try {
         // const token = JSON.parse(localStorage.getItem("user"))?.token;
 
-        const response = await fetch("http://localhost:4000/api/blogs/", {
+        const response = await fetch(`${import.meta.env.VITE_API_URL}/api/blogs/`, {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
